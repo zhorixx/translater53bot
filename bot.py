@@ -4,7 +4,7 @@ import asyncio
 from telebot.types import InlineQuery, InputTextMessageContent
 from telebot import types
 
-bot = AsyncTeleBot("7068028647:AAE9btQTRixAfCYIMB756mfvIVyQfeXCyLc", parse_mode=None)
+bot = AsyncTeleBot("7068028647:AAE9btQTRixAfCYIMB756mfvIVyQfeXCy", parse_mode=None)
 
 
 @bot.message_handler(commands=['start'])
