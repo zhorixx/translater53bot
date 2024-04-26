@@ -1,7 +1,6 @@
 from googletrans import Translator
 from telebot.async_telebot import AsyncTeleBot
 import asyncio
-from telebot.types import InlineQuery, InputTextMessageContent
 from telebot import types
 
 bot = AsyncTeleBot("7068028647:AAE9btQTRixAfCYIMB756mfvIVyQfeXCyLc", parse_mode=None)
